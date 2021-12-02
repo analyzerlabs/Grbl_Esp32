@@ -259,22 +259,22 @@
 // =========== 	AXIS RESOLUTION ======
 
 #ifndef DEFAULT_X_STEPS_PER_MM
-#    define DEFAULT_X_STEPS_PER_MM 100.0
+#    define DEFAULT_X_STEPS_PER_MM 50.0
 #endif
 #ifndef DEFAULT_Y_STEPS_PER_MM
-#    define DEFAULT_Y_STEPS_PER_MM 100.0
+#    define DEFAULT_Y_STEPS_PER_MM 50.0 
 #endif
 #ifndef DEFAULT_Z_STEPS_PER_MM
-#    define DEFAULT_Z_STEPS_PER_MM 100.0
+#    define DEFAULT_Z_STEPS_PER_MM 50.0
 #endif
 #ifndef DEFAULT_A_STEPS_PER_MM
-#    define DEFAULT_A_STEPS_PER_MM 100.0
+#    define DEFAULT_A_STEPS_PER_MM 50.0
 #endif
 #ifndef DEFAULT_B_STEPS_PER_MM
-#    define DEFAULT_B_STEPS_PER_MM 100.0
+#    define DEFAULT_B_STEPS_PER_MM 50.0
 #endif
 #ifndef DEFAULT_C_STEPS_PER_MM
-#    define DEFAULT_C_STEPS_PER_MM 100.0
+#    define DEFAULT_C_STEPS_PER_MM 50.0
 #endif
 
 // ============ AXIS MAX SPPED =========
@@ -323,22 +323,22 @@
 // ========= AXIS MAX TRAVEL ============
 
 #ifndef DEFAULT_X_MAX_TRAVEL
-#    define DEFAULT_X_MAX_TRAVEL 300.0  // $130 mm NOTE: Must be a positive value.
+#    define DEFAULT_X_MAX_TRAVEL 200.0  // $130 mm NOTE: Must be a positive value.
 #endif
 #ifndef DEFAULT_Y_MAX_TRAVEL
-#    define DEFAULT_Y_MAX_TRAVEL 300.0  // mm NOTE: Must be a positive value.
+#    define DEFAULT_Y_MAX_TRAVEL 200.0  // mm NOTE: Must be a positive value.
 #endif
 #ifndef DEFAULT_Z_MAX_TRAVEL
-#    define DEFAULT_Z_MAX_TRAVEL 300.0  // mm NOTE: Must be a positive value.
+#    define DEFAULT_Z_MAX_TRAVEL 200.0  // mm NOTE: Must be a positive value.
 #endif
 #ifndef DEFAULT_A_MAX_TRAVEL
-#    define DEFAULT_A_MAX_TRAVEL 300.0  // mm NOTE: Must be a positive value.
+#    define DEFAULT_A_MAX_TRAVEL 200.0  // mm NOTE: Must be a positive value.
 #endif
 #ifndef DEFAULT_B_MAX_TRAVEL
-#    define DEFAULT_B_MAX_TRAVEL 300.0  // mm NOTE: Must be a positive value.
+#    define DEFAULT_B_MAX_TRAVEL 200.0  // mm NOTE: Must be a positive value.
 #endif
 #ifndef DEFAULT_C_MAX_TRAVEL
-#    define DEFAULT_C_MAX_TRAVEL 300.0  // mm NOTE: Must be a positive value.
+#    define DEFAULT_C_MAX_TRAVEL 200.0  // mm NOTE: Must be a positive value.
 #endif
 
 #ifndef DEFAULT_X_HOMING_MPOS

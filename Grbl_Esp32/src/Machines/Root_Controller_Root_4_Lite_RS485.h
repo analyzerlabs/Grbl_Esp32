@@ -62,8 +62,8 @@
 //200pulses/rev stepper motor with SFU1204 ballscrew with a pitch of 4mm
 //equates to 50 Steps/mm * micro stepping
 //Steps per MM
-#define DEFAULT_X_STEPS_PER_MM 800 
-#define DEFAULT_Y_STEPS_PER_MM 800
+#define DEFAULT_X_STEPS_PER_MM 520 
+#define DEFAULT_Y_STEPS_PER_MM 520
 #define DEFAULT_Z_STEPS_PER_MM 1000 // 50 Steps/mm * micro stepping * belt ratio 
 //**Max Feedrate
 #define DEFAULT_X_MAX_RATE		1000

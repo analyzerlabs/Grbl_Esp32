@@ -80,8 +80,8 @@
 
 #define DEFAULT_HOMING_ENABLE 0
 #define DEFAULT_HOMING_DIR_MASK 0 // move positive dir Z, negative X,Y
-#define DEFAULT_HOMING_FEED_RATE 200.0 // mm/min
-#define DEFAULT_HOMING_SEEK_RATE 1000.0 // mm/min
+#define DEFAULT_HOMING_FEED_RATE 100.0 // mm/min
+#define DEFAULT_HOMING_SEEK_RATE 500.0 // mm/min
 #define DEFAULT_HOMING_DEBOUNCE_DELAY 250 // msec (0-65k)
 #define DEFAULT_HOMING_PULLOFF 3.0 // mm
 
@@ -90,18 +90,20 @@
 
 #define DEFAULT_LASER_MODE 0 // false
 
-#define DEFAULT_X_STEPS_PER_MM 80.0
-#define DEFAULT_Y_STEPS_PER_MM 80.0
-#define DEFAULT_Z_STEPS_PER_MM 100.0 // This is percent in servo mode...used for calibration
+#define DEFAULT_X_STEPS_PER_MM 50.0
+#define DEFAULT_Y_STEPS_PER_MM 50.0
+/*#define DEFAULT_Z_STEPS_PER_MM 100.0 // This is percent in servo mode...used for calibration*/
+#define DEFAULT_Z_STEPS_PER_MM 50.0 // This is percent in servo mode...used for calibration
 
-#define DEFAULT_X_MAX_RATE 5000.0 // mm/min
-#define DEFAULT_Y_MAX_RATE 5000.0 // mm/min
-#define DEFAULT_Z_MAX_RATE 5000.0 // mm/min
+#define DEFAULT_X_MAX_RATE 2000.0 // mm/min
+#define DEFAULT_Y_MAX_RATE 2000.0 // mm/min
+#define DEFAULT_Z_MAX_RATE 2000.0 // mm/min
 
-#define DEFAULT_X_ACCELERATION 50.0 // mm/sec^2. 50 mm/sec^2 = 180000 mm/min^2
-#define DEFAULT_Y_ACCELERATION 50.0 // mm/sec^2
-#define DEFAULT_Z_ACCELERATION 50.0 // mm/sec^2
+#define DEFAULT_X_ACCELERATION 20.0 // mm/sec^2. 50 mm/sec^2 = 180000 mm/min^2
+#define DEFAULT_Y_ACCELERATION 20.0 // mm/sec^2
+#define DEFAULT_Z_ACCELERATION 20.0 // mm/sec^2
 
-#define DEFAULT_X_MAX_TRAVEL 300.0 // mm NOTE: Must be a positive value.
-#define DEFAULT_Y_MAX_TRAVEL 300.0 // mm NOTE: Must be a positive value.
-#define DEFAULT_Z_MAX_TRAVEL 100.0 // This is percent in servo mode...used for calibration
+#define DEFAULT_X_MAX_TRAVEL 200.0 // mm NOTE: Must be a positive value.
+#define DEFAULT_Y_MAX_TRAVEL 200.0 // mm NOTE: Must be a positive value.
+/*#define DEFAULT_Z_MAX_TRAVEL 100.0 // This is percent in servo mode...used for calibration*/
+#define DEFAULT_Z_MAX_TRAVEL 100.0
